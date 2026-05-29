@@ -142,7 +142,7 @@ public class VariablenUndOperatoren
      * ausgestattet ist.
      */
 
-    char einzelnerBuchstabe = 'c';
+    char einzelnerBuchstabe = 't';
     
     string zeichenkette = "Test";
 
