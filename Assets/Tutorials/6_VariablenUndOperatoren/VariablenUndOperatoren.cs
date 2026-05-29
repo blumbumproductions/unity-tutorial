@@ -120,11 +120,38 @@ public class VariablenUndOperatoren
      */
     
     /*
+     * Einen Long können wir verwenden, wenn wir eine sehr lange Natürliche Zahl brauchen, also wenn unser int zu kurz ist.
+     */
+    long testNormaleZahlGroß = 6583487342783247834;
+
+    /*
+     * Kommazahlen sind für so ziemlich alles wichtig in der Spieleentwicklung. Zum Beispiel brauchen wir Kommazahlen für
+     * Positionen von Objekten im dreidimensionalen Raum. Für Kommazahlen verwendet man floats und doubles. Wenn ihr einen
+     * float verwenden möchten (kleiner Kommazahlen, mit weniger Nachkommastellen) dann müsst ihr beim instanziieren (Zuordnen) des
+     * Variablenwertes, hinter die Zahl ein 'f' setzen, damit es als float erkannt wird, sonst hat der Compiler etwas dagegen.
+     * Wenn ihr kein 'f' hinter die Kommazahl setzt, dann ist es nämlich automatisch ein Double, also eine große Kommazahl.
+     */
+    float testKommazahl = 4.54f;
+    
+    double testKommazahlKommazahl = 4.54;
+    
+    /*
+     * Zum Schluss ein Datentyp, der nicht zu den grunddatentypen zählt, den wir aber sehr oft verwenden werden: der String.
+     * Strings sind eine Kette von Zeichen. Ein Zeichen kann durch den Datentyp char dargestellt werden, den nutzt man aber
+     * recht selten. Viel häufiger verwendet man den String, also eine Liste von chars, die schon mit einigen Funktionen
+     * ausgestattet ist.
+     */
+
+    char einzelnerBuchstabe = 'c';
+    
+    string zeichenkette = "Test";
+
+    /*
      * Kommen wir jetzt zu einer kleinen praktischen Anwendung für Variablen, sonst wirds ja langweilig und schwer
      * verständlich wofür wir das eigentlich alles brauchen.
      * Dafür gibt es eine neue Datei, die ein MonoBehaviour Script ist.
      */
-    
-    
-    
+
+
+
 }

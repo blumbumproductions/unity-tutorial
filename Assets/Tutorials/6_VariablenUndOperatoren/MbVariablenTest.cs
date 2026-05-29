@@ -45,10 +45,6 @@ public class MbVariablenTest : MonoBehaviour
         int lebenNachDemAngriff = leben - angriff; // Neuer wert des Lebens des Charakters.
         
         Debug.Log(lebenNachDemAngriff); // Und wieder in der Console ausgeben.
-
-        /*
-         * Wie wir auch mit Kommazahlen und so weiter umgehen können, zeige ich euch beim nächsten Mal.
-         */
     }
     
 }
